@@ -34,7 +34,9 @@ conda install pytorch torchvision -c pytorch
 ## Build Detectron2 from Source
 
 Follow the [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) to install Detectron2.
-
+torch 1.10 CUDA11.3 
+python -m pip install detectron2 -f \
+  https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
 ## Dataset download
 
 1. Download COCO dataset
